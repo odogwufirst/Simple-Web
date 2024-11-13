@@ -34,7 +34,7 @@ function authenticate(email, pass) {
     pass === window.localStorage.getItem("Password")
   ) {
     alert("You have logged in Successfully!");
-    window.location.href = "http://127.0.0.1:5500/html/landing.html";
+    window.location.href = "http://127.0.0.1:5500/Simple-Web/landing.html";
   } else {
     alert("Your login credentials are wrong");
   }
