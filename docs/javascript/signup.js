@@ -34,7 +34,7 @@ function checkUserIpt(e) {
     window.localStorage.setItem("Email", mailVal);
     window.localStorage.setItem("Password", passVal);
     alert("Your account has been successfully created!");
-    window.location.href = "./index.html";
+    window.location.href = windows.location.origin + "./index.html";
   }
 }
 
