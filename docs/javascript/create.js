@@ -28,7 +28,7 @@ function checkUserIpt(e) {
   } else {
     window.localStorage.setItem("Password", newpassVal);
     alert("Your new password has been created!");
-    window.location.href = "http://127.0.0.1:5500/html/congratulation.html";
+    window.location.href = "http://127.0.0.1:5500/Simple-Web/congratulation.html";
   }
 }
 

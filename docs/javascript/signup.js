@@ -34,7 +34,7 @@ function checkUserIpt(e) {
     window.localStorage.setItem("Email", mailVal);
     window.localStorage.setItem("Password", passVal);
     alert("Your account has been successfully created!");
-    window.location.href = "http://127.0.0.1:5500/html/login.html";
+    window.location.href = "http://127.0.0.1:5500/Simple-Web/index.html";
   }
 }
 
