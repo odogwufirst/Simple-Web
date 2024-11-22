@@ -9,7 +9,7 @@ function checkEmailValidity(e) {
   
   if(email === window.localStorage.getItem("Email")){
     alert("Your email is valid ")
-    window.location.href = "http://127.0.0.1:5500/Simple-Web/create.html";
+    window.location.href = "https://odogwufirst.github.io/Simple-Web/create.html";
   }else{alert("Your email is not valid ")
     
   }
